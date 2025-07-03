@@ -109,7 +109,7 @@ class BoyVC: UIViewController {
   
     
     @objc func boyScore(){
-        score += 1
+        score += 3
         scoreLabel.text = "Score: \(score)"
     } //end of boyScore
     @objc func hideBoy(){
